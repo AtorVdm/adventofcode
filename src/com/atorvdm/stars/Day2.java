@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Maksim Strutinskiy.
  */
-public class Star2 {
+public class Day2 {
     private static final int START = 1;
     private static final int SIZE = 3;
     private static final int MIDDLE = 5;

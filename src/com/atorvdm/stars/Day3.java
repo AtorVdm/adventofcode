@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Maksim Strutinskiy.
  */
-public class Star3 {
+public class Day3 {
     public static void main(String[] args) {
         List<String> input = InputReader.readLines("src/com/atorvdm/stars/input/input3.txt");
 
