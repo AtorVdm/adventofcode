@@ -13,18 +13,8 @@ public class Star1 {
     public static final String RIGHT = "R";
 
     public static void main(String[] args) {
-        StringBuilder inputSB = new StringBuilder();
-        try {
-//            input = new Scanner(new URL("http://adventofcode.com/2016/day/1/input").openStream(), "UTF-8")
-//                    .useDelimiter(DELIMITER).next();
-            Files.lines(Paths.get("src/com/atorvdm/stars/input/input1.txt"))
-                    .forEach(s -> inputSB.append(s));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        
-        String input = inputSB.toString();
-        if (input == null || input.isEmpty()) {
+        String input = InputReader.readFrom("src/com/atorvdm/stars/input/input1.txt");
+        if (input.isEmpty()) {
             System.err.println("Input is null or empty!");
             return;
         }
